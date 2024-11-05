@@ -80,43 +80,8 @@ npm run dev
 3. 状態管理: Piniaを使用してアプリケーションの状態を効率的に管理しています。
 
 ## ディレクトリ構成
-<<<<<<< HEAD
 
 |![image](./assets/images/screenshot3.png)|
 |:---:|
 |ディレクトリ構成|
-=======
-├── assets                # 정적 파일
-│   ├── css
-│   │   └── app.css       # 메인 CSS 파일
-│   └── images            # 이미지 파일
-│       ├── check.svg     # 체크 아이콘
-│       ├── screenshot1.png  # 스크린샷 1
-│       ├── screenshot2.png  # 스크린샷 2
-│       ├── trash.svg     # 휴지통 아이콘
-│       └── undo.svg      # 실행 취소 아이콘
-├── components            # Vue 컴포넌트 파일
-│   ├── AddTask.vue       # 할 일 추가 컴포넌트
-│   ├── Header.vue        # 헤더 컴포넌트
-│   └── Task.vue          # 개별 할 일 컴포넌트
-├── layouts               # 레이아웃 파일
-│   └── main.vue          # 메인 레이아웃
-├── pages                 # 페이지 파일
-│   ├── done.vue          # 완료된 작업 페이지
-│   └── index.vue         # 메인 할 일 페이지
-├── plugins               # 플러그인 설정 파일
-│   ├── bootstrap.client.js  # Bootstrap 설정
-│   └── jquery.client.js     # jQuery 설정
-├── public                # 공개용 정적 파일
-│   └── favicon.png       # 파비콘 이미지
-├── store                 # 상태 관리 파일
-│   ├── todo.ts           # 할 일 상태 관리
-│   └── user.ts           # 사용자 상태 관리
-├── .gitignore            # Git 무시 파일 설정
-├── app.vue               # 루트 Vue 컴포넌트
-├── nuxt.config.ts        # Nuxt 설정 파일
-├── package.json          # npm 의존성 설정
-├── README.md             # 프로젝트 개요 및 설치 방법
-└── tsconfig.json         # TypeScript 설정 파일
->>>>>>> f55a8c36e51e8081699b39d65cdc141455c91cdc
 
