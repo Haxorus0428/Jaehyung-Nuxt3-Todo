@@ -59,6 +59,7 @@
 
 git clone https://github.com/yourusername/Jaehyung-Nuxt3-Todo.git
 cd Jaehyung-Nuxt3-Todo
+
 2. npmとBowerを使用して依存関係をインストールします:
 
 npm install
