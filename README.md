@@ -58,7 +58,7 @@
 - このリポジトリをクローンします:
 
   ```bash
-  git clone https://github.com/yourusername/Jaehyung-Nuxt3-Todo.git
+  git clone https://github.com/Haxorus0428/Jaehyung-Nuxt3-Todo.git
   cd Jaehyung-Nuxt3-Todo
 
 - npmとBowerを使用して依存関係をインストールします:
