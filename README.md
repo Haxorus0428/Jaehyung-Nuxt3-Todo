@@ -80,20 +80,36 @@ npm run dev
 3. 状態管理: Piniaを使用してアプリケーションの状態を効率的に管理しています。
 
 ## ディレクトリ構成
-assets/ # スタイルや画像などの静的アセット ├── css/ │ └── app.css # アプリのメインCSSファイル └── images/ # 画像ファイル ├── check.svg # checkアイコン ├── screenshot1.png # スクリーンショット1 ├── screenshot2.png # スクリーンショット2 ├── trash.svg # trashアイコン └── undo.svg # undoアイコン
-
-components/ # Vueコンポーネント ├── AddTask.vue # タスク追加コンポーネント ├── Header.vue # ヘッダーコンポーネント └── Task.vue # タスクコンポーネント
-
-layouts/ # レイアウトファイル └── main.vue # メインレイアウト
-
-pages/ # ページコンポーネント ├── done.vue # 完了したタスクページ └── index.vue # To-Doリストのメインページ
-
-plugins/ # プラグイン設定 ├── bootstrap.client.js # Bootstrapプラグイン └── jquery.client.js # jQueryプラグイン
-
-public/ # 公開用の静的ファイル └── favicon.png # ファビコン画像
-
-store/ # 状態管理ファイル (Pinia) ├── todo.ts # ToDo管理用の状態ファイル └── user.ts # ユーザー管理用の状態ファイル
-
-.gitignore # Git無視設定ファイル app.vue # アプリのルートコンポーネント nuxt.config.ts # Nuxt設定ファイル package.json # npm依存関係設定ファイル README.md # プロジェクト概要とインストール方法 tsconfig.json # TypeScript設定ファイル
-
+├── assets                # 정적 파일
+│   ├── css
+│   │   └── app.css       # 메인 CSS 파일
+│   └── images            # 이미지 파일
+│       ├── check.svg     # 체크 아이콘
+│       ├── screenshot1.png  # 스크린샷 1
+│       ├── screenshot2.png  # 스크린샷 2
+│       ├── trash.svg     # 휴지통 아이콘
+│       └── undo.svg      # 실행 취소 아이콘
+├── components            # Vue 컴포넌트 파일
+│   ├── AddTask.vue       # 할 일 추가 컴포넌트
+│   ├── Header.vue        # 헤더 컴포넌트
+│   └── Task.vue          # 개별 할 일 컴포넌트
+├── layouts               # 레이아웃 파일
+│   └── main.vue          # 메인 레이아웃
+├── pages                 # 페이지 파일
+│   ├── done.vue          # 완료된 작업 페이지
+│   └── index.vue         # 메인 할 일 페이지
+├── plugins               # 플러그인 설정 파일
+│   ├── bootstrap.client.js  # Bootstrap 설정
+│   └── jquery.client.js     # jQuery 설정
+├── public                # 공개용 정적 파일
+│   └── favicon.png       # 파비콘 이미지
+├── store                 # 상태 관리 파일
+│   ├── todo.ts           # 할 일 상태 관리
+│   └── user.ts           # 사용자 상태 관리
+├── .gitignore            # Git 무시 파일 설정
+├── app.vue               # 루트 Vue 컴포넌트
+├── nuxt.config.ts        # Nuxt 설정 파일
+├── package.json          # npm 의존성 설정
+├── README.md             # 프로젝트 개요 및 설치 방법
+└── tsconfig.json         # TypeScript 설정 파일
 
