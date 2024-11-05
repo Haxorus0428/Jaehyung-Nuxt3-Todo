@@ -55,22 +55,25 @@
 
 ### インストール手順
 
-1. このリポジトリをクローンします:
+- このリポジトリをクローンします:
 
-git clone https://github.com/yourusername/Jaehyung-Nuxt3-Todo.git
+  ```bash
+  git clone https://github.com/yourusername/Jaehyung-Nuxt3-Todo.git
+  cd Jaehyung-Nuxt3-Todo
 
-cd Jaehyung-Nuxt3-Todo
+- npmとBowerを使用して依存関係をインストールします:
 
-2. npmとBowerを使用して依存関係をインストールします:
-
-npm install
-bower install
+  ```bash
+  npm install
+  bower install
 
 ### プロジェクト実行
 
-開発用サーバーを開始するには以下のコマンドを使用します:
+- 開発用サーバーを開始するには以下のコマンドを使用します:
 
-npm run dev
+  ```bash
+  npm run dev
+  
 アプリケーションは http://localhost:3000 でアクセス可能です。
 
 ## 機能の使い方
