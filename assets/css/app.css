@@ -1,0 +1,29 @@
+/* ~/assets/css/app.css */
+
+body, #__nuxt {
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.no-tasks {
+  color: #dc3545; /* Bootstrap의 Danger 컬러 */
+  font-weight: bold;
+}
+
+.task {
+  padding: 8px;
+  border: 1px solid #dee2e6;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 8px;
+}

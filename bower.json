@@ -1,0 +1,26 @@
+{
+  "name": "jaehyung-nuxt3-todo",
+  "description": "A Nuxt3 todo app with drag-and-drop and login features",
+  "main": "index.html",
+  "authors": [
+    "Haxorus0428 <pkimjaehyung@naver.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "todo",
+    "nuxt3"
+  ],
+  "homepage": "https://github.com/Haxorus0428/Jaehyung-Nuxt3-Todo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "bootstrap": "^5.3.3"
+  }
+}
