@@ -22,11 +22,15 @@
 ### プロジェクト説明
 このプロジェクトは、Nuxt3、Vue、TypeScriptを使用して開発されたタスク管理アプリです。タスクの追加、削除、ドラッグ＆ドロップによる並び替えが可能で、BowerとjQueryを使用してドラッグ機能を実装しています。また、Piniaで状態管理を行い、簡単で直感的なインターフェースを提供しています。
 
-### スクリーンショット
+### スクリーンショット＆デモGif
 
 |![image](./assets/images/screenshot1.png)|![image](./assets/images/screenshot2.png)|
 |:---:|:---:|
 |タスク管理画面|完了済みタスク画面|
+
+|![image](./assets/images/demo.gif)|
+|:---:|
+|DemoGif|
 
 ## 使用技術
 
